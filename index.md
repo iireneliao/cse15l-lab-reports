@@ -5,7 +5,7 @@ Hiii
 **I am drinking an energy drink right now**
 
 # How I will never see myself as good enough for my parents
->![Image](https://api.time.com/wp-content/uploads/2019/08/tired-spongebob-meme.png)
+>![Image](https://api.time.com/wp-content/uploads/2019/08/tired-spongebob-meme.png = 250x250)
 
 ## Did you fall for it?
 [click me](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
