@@ -73,7 +73,7 @@ To start the process of moving files, you must follow these steps:
 2. In the same terminal (local computer), run the copy command: `scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/`
 3. Log into the `ieng6` server via `ssh` and run the command `ls`.
 > The file should appear:
-
+> 
 > ![Image](whereami.png)
 4. Run `javac` and `java` on the *ieng6 computer* this time!
 
