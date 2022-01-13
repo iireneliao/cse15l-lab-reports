@@ -29,12 +29,12 @@ The next step is to open VSCode to connect to the remote computer.
 1. Open a terminal in VSCode (shortcut: Control/Command + `) and utilize the following command:
 
 * `$ ssh cs15lwi22zz@ieng6.ucsd.edu`
->* "zz" should be replaced with your speciifc account's username*
+> "zz" should be replaced with your speciifc account's username*
 
 2. After running the command, you should see an output similar to this: ```The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? ```
->* Type in "yes" as it means that you're connecting to a new server for the first time. It should prompt you to type in your password after.
+> Type in "yes" as it means that you're connecting to a new server for the first time. It should prompt you to type in your password after.
 
 3. After, you should see an output similar to this:
 ![Image](SSH.png)
@@ -72,8 +72,8 @@ To start the process of moving files, you must follow these steps:
 1. Run `javac` and `java` on `WhereAmI.java` on your *local computer*.
 2. In the same terminal (local computer), run the copy command: `scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/`
 3. Log into the `ieng6` server via `ssh` and run the command `ls`.
-* The file should appear:
-* ![Image](whereami.png)
+> The file should appear:
+> ![Image](whereami.png)
 4. Run `javac` and `java` on the *ieng6 computer* this time!
 
 ---
@@ -83,7 +83,7 @@ Notice how tedious it is to continuously enter your password whenever running `s
 To ease this problem, we can create `ssh` keys that use your password as a file in order to speed up the process and get rid of the entering password bit.
 
 1. On your *local computer*, run `$ ssh-keygen`.
-* Your output should be something like ```Generating public/private rsa key pair.
+> Your output should be something like ```Generating public/private rsa key pair.
 Enter file in which to save the key (/Users/joe/.ssh/id_rsa): /Users/joe/.ssh/id_rsa
 Enter passphrase (empty for no passphrase): 
 Enter same passphrase again: 
@@ -100,7 +100,7 @@ In order to optimize remote running, you can figure out plenty of methods and st
 * For example, using *semicolons* allow you to multi-task without having to individually run each command.
 ![Image](cp.png)
 * Another example would be writing a command in quotes at the end of `ssh` to run it on the remote server.
-> For example: `$ ssh cs15lwi22@ieng6.ucsd.edu "ls"`
+>* For example: `$ ssh cs15lwi22@ieng6.ucsd.edu "ls"`
 
 
 ---
