@@ -29,12 +29,12 @@ The next step is to open VSCode to connect to the remote computer.
 1. Open a terminal in VSCode (shortcut: Control/Command + `) and utilize the following command:
 
 * `$ ssh cs15lwi22zz@ieng6.ucsd.edu`
-> "zz" should be replaced with your speciifc account's username*
+>* "zz" should be replaced with your speciifc account's username*
 
 2. After running the command, you should see an output similar to this: ```The authenticity of host 'ieng6.ucsd.edu (128.54.70.227)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? ```
-> Type in "yes" as it means that you're connecting to a new server for the first time. It should prompt you to type in your password after.
+* Type in "yes" as it means that you're connecting to a new server for the first time. It should prompt you to type in your password after.
 
 3. After, you should see an output similar to this:
 ![Image](SSH.png)
@@ -73,6 +73,7 @@ To start the process of moving files, you must follow these steps:
 2. In the same terminal (local computer), run the copy command: `scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/`
 3. Log into the `ieng6` server via `ssh` and run the command `ls`.
 > The file should appear:
+
 > ![Image](whereami.png)
 4. Run `javac` and `java` on the *ieng6 computer* this time!
 
