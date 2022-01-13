@@ -1,14 +1,14 @@
 # Hello!
 ## This is a tutorial on how to log into a *course-specific* account on `ieng`.
 
->What is "ieng"?
->>"ieng6" or more specifically, ieng6.ucsd.edu, is the name of a domain that allows students to access UCSD from anywhere. 
+What is "ieng"?
+* "ieng6" or more specifically, ieng6.ucsd.edu, is the name of a domain that allows students to access UCSD from anywhere. 
  ---
 # **1. Installing VSCode**
 Install **Visual Studo Code** with this link: [VSCode](https://code.visualstudio.com/)
 
-> What is VSCode used for?
->> VSCode is a simple code editor that is popular to use as it allows users to debug, run tasks, and more.
+*What is VSCode used for?*
+* VSCode is a simple code editor that is popular to use as it allows users to debug, run tasks, and more.
 
 Once launched, you should see a screen similar to the one below:
 ![Image](VSCOpen.png)
