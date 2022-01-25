@@ -103,6 +103,19 @@ In order to optimize remote running, you can figure out plenty of methods and st
 * Another example would be writing a command in quotes at the end of `ssh` to run it on the remote server.
 >* For example: `$ ssh cs15lwi22@ieng6.ucsd.edu "ls"`
 
+My personal method to make edits on a local file and send it to a server is the following:
+1. Make edits on the file and compile it locally 
+>* `$ javac WhereAmI.java`
+2. Run the `scp` command
+>* `scp WhereAmI.java cs15lwi22zzz@ieng6.ucsd.edu:~/`
+3. Login to `ssh`
+>* `$ ssh cs15lwi22zzz@ieng6.ucsd.edu`
+4. Run and compile on the server
+>* `javac WhereAmI.java`
+>* `java WhereAmI`
+
+
+Using this method only requires 5 commands rather than the tedious and time-consuming method that we learned initially with many keystrokes.
 
 ---
 

@@ -1,0 +1,12 @@
+make edits
+
+compile
+javac WhereAmI.java
+
+scp command
+scp WhereAmI.java cs15lwi22ago@ieng6.ucsd.edu:~/
+
+login to ssh
+ssh cs15lwi22ago@ieng6.ucsd.edu
+
+run on server javac WhereAmI.java
