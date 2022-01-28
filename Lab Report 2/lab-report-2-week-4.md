@@ -57,7 +57,7 @@ The failure-inducing input file looks like this:
 ![Image](input3.png)
 
 Link to file:
-[First Failure File](https://github.com/iireneliao/markdown-parse/blob/main/withwords.md)
+[Third Failure File](https://github.com/iireneliao/markdown-parse/blob/main/withwords.md)
 
 ## **Symptom**
 The symptom of that failure-inducing input does not exist, which is the symptom. After 10 minutes of waiting for an output, the code does not allow the terminal to compile the MarkdownParse file with the test file with words. The symptom was as such:
