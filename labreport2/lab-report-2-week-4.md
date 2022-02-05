@@ -3,7 +3,7 @@ Week 4 Lab Report
 
 # **Code Change 1**
 ## **Code Change**
-The second change my group and I committed was one that involved the bug of missing parentheses in test files.
+The first change my group and I committed was one that involved the bug of missing parentheses in test files.
 
 ![Image](change1.png)
 
